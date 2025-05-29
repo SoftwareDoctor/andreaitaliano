@@ -65,21 +65,27 @@ h2 {
 .footer {
   background-color: #3366CC;
   color: #fff;
-  padding: 10rem 8rem; 
-   min-height: 500px;
+
+  /* Dimensione fissa minima del footer */
+  min-height: 150px;
+
+  /* Spaziatura interna */
+  padding: 2rem;
 
   display: flex;
   justify-content: center;
-  gap: 3rem; /* spazio tra le voci */
-  flex-wrap: wrap; /* va a capo se lo schermo è stretto */
+  align-items: center;  /* centra verticalmente */
+  gap: 3rem;
+  flex-wrap: wrap;
 }
 
 .footer a {
   color: #002366;
   text-decoration: none;
+  font-size: 1.2rem;
 }
 
 .footer p {
   margin: 0;
-  padding: 10rem; 
 }
+
