@@ -77,3 +77,8 @@ h2 {
   color: #002366;
   text-decoration: none;
 }
+
+.footer p {
+  margin: 0;
+  display: inline-block; 
+}
