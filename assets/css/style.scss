@@ -3,7 +3,10 @@
 
 @import "{{ site.theme }}";
 
-/* Qui il tuo CSS personalizzato */
+/* CSS personalizzato */
 body {
-  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background: #f8f8f8;
+  padding: 20px;
 }
