@@ -33,6 +33,7 @@ body {
 
 .main-content {
   padding: 2rem;
+  color: #002366;
 
   /* Permette a main-content di espandersi e spingere il footer in basso */
   flex: 1;
