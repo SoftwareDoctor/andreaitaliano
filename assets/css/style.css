@@ -4,6 +4,11 @@ body {
   padding: 0;
   background-color: #f4f4f4;
   color: #333;
+
+  /* Flex container verticale per posizionare footer in basso */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .intro-section {
@@ -28,6 +33,9 @@ body {
 
 .main-content {
   padding: 2rem;
+
+  /* Permette a main-content di espandersi e spingere il footer in basso */
+  flex: 1;
 }
 
 section {
