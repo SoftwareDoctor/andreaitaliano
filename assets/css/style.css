@@ -9,14 +9,14 @@ body {
 .intro-section {
   display: flex;
   align-items: center;
-  background-color: #222;
+  background-color: #3366CC;
   color: #fff;
   padding: 2rem;
 }
 
 .profile-image img {
   width: 180px;
-  height: 180;
+  height: 180px;
   border-radius: 80%;
   margin-right: 2rem;
 }
@@ -52,7 +52,7 @@ h2 {
 }
 
 .footer {
-  background-color: #222;
+  background-color: #3366CC;
   color: #fff;
   text-align: center;
   padding: 1rem;
