@@ -66,6 +66,7 @@ h2 {
   background-color: #3366CC;
   color: #fff;
   padding: 5rem 4rem; 
+   min-height: 200px;
 
   display: flex;
   justify-content: center;
@@ -80,5 +81,5 @@ h2 {
 
 .footer p {
   margin: 0;
-  display: inline-block; 
+  padding: 1rem; 
 }
